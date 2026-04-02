@@ -1,0 +1,20 @@
+Subiect de Test (Exemplu)
+Context: O firmă de închirieri dorește un modul pentru gestionarea vehiculelor (Biciclete, Trotinete).
+
+Cerința 1 (3p) - Factory Method:
+Firma dorește o structură care să permită adăugarea de noi tipuri de vehicule fără a modifica codul existent.
+Fiecare vehicul trebuie să aibă o metodă descriere(). Implementați modulele de creare (fabricile)
+pentru Bicicleta și Trotineta, respectând principiul de extensibilitate.
+
+Cerința 2 (3p) - Builder:
+Atunci când un client închiriază un vehicul, acesta poate alege dotări suplimentare opționale:
+CascaProtecție (boolean), CoșCumpărături (boolean), AsigurareAccidente (boolean) și NumarKilometriIncluși (int).
+Dacă nu sunt setate, acestea au valori implicite (false/0). Implementați modelul care să permită crearea acestor
+obiecte de tip Rezervare.
+
+Cerința 3 (2p) - Testare:
+În Main, demonstrați:
+
+Crearea a două vehicule diferite folosind fabricile dedicate.
+
+Crearea a două rezervări diferite (una cu toate opțiunile, una doar cu Cască) folosind Builder-ul.

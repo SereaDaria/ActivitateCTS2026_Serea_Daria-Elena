@@ -24,15 +24,6 @@ public class Rezervare implements IRezervare {
     public Rezervare() {
     }
 
-    @Override
-    public IRezervare copiaza(){
-        Rezervare rezervare = new Rezervare();
-        rezervare.numeClient = this.numeClient;
-        rezervare.ora = this.ora;
-        rezervare.nrPersoane = this.nrPersoane;
-        rezervare.nrCard = this.nrCard;
-        return rezervare;
-    }
 
     public void setNumeClient(String numeClient) {
         this.numeClient = numeClient;
@@ -60,4 +51,15 @@ public class Rezervare implements IRezervare {
         sb.append('}');
         return sb.toString();
     }
+
+    @Override
+    public IRezervare copiaza(){
+        Rezervare rezervare = new Rezervare();
+        rezervare.numeClient = this.numeClient;
+        rezervare.ora = this.ora;
+        rezervare.nrPersoane = this.nrPersoane;
+        rezervare.nrCard = this.nrCard;
+        return rezervare;
+    }
+
 }

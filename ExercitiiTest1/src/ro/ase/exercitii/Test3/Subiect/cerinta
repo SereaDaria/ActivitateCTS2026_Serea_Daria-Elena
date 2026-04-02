@@ -1,0 +1,27 @@
+Context: Se dorește dezvoltarea unui modul informatic pentru un restaurant care să gestioneze procesul
+de creare a meniurilor și a rezervărilor meselor.
+
+Cerința 1 (4p)
+Restaurantul oferă mai multe tipuri de meniuri: MeniuVegan, MeniuVegetarian și MeniuCuCarne.
+Toate meniurile trebuie să aibă o metodă afisareIngrediente().
+Managerul dorește un modul de inițializare a acestor meniuri. Implementarea trebuie realizată folosind o
+structură în care, dacă pe viitor apare un tip nou de meniu (ex: MeniuFructeDeMare), să se poată adăuga fără a
+modifica logica de selecție existentă deja în aplicație.
+
+Indiciu tehnic: Trebuie să folosești o interfață pentru produse și o interfață/clasă abstractă pentru fabrici.
+
+Cerința 2 (3p)
+Atunci când un client face o rezervare pentru o masă, acesta poate opta pentru diverse facilități care vor apărea
+pe bonul de rezervare: MasaLaGeam (boolean), ScaunCopil (boolean), DecoratiuniFlorale (boolean)
+sau MuzicaAmbientalaPersonalizata (String).
+Dacă aceste opțiuni nu sunt specificate de client, rezervarea se va crea cu valorile implicite (fără facilități).
+
+Indiciu tehnic: Trebuie să implementezi o clasă de tip Rezervare și o clasă care să se ocupe de construcția
+etapizată a acesteia.
+
+Cerința 3 (1p)
+În clasa Main, simulează:
+
+Crearea unui MeniuVegan folosind structura de fabrici definită la Cerința 1.
+
+Crearea unei Rezervări care are doar MasaLaGeam și DecoratiuniFlorale setate pe true, restul rămânând default.
