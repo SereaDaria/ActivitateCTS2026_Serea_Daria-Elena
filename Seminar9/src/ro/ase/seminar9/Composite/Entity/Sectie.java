@@ -11,8 +11,8 @@ public class Sectie implements Structura {
 
 
     @Override
-    public void afiseazaDetalii() {
-        final StringBuilder sb = new StringBuilder("Sectie{");
+    public void afiseazaDetalii(String spatii) {
+        final StringBuilder sb = new StringBuilder(spatii + "Sectie{");
         sb.append("numeSectie='").append(numeSectie).append('\'');
         sb.append(", nrAngajati=").append(nrAngajati);
         sb.append('}');

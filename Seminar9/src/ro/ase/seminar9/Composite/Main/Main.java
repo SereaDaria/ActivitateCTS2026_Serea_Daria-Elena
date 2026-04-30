@@ -15,11 +15,11 @@ public class Main {
         ((Departament) depSpital).adaugaStructura(sectieSecretariat);
         ((Departament) depSpital).adaugaStructura(sectieManagement);
 
-        depSpital.afiseazaDetalii();
+        depSpital.afiseazaDetalii("   ");
 
         ((Departament) depSpital).stergeStructura(sectieManagement);
         ((Departament) depAdmin).adaugaStructura(sectieManagement);
 
-        depSpital.afiseazaDetalii();
+        depSpital.afiseazaDetalii("   ");
     }
 }
