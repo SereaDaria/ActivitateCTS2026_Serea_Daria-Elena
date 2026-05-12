@@ -1,8 +1,8 @@
-package ro.ase.exercitii2.comportamentale.composite;
+package ro.ase.exercitii2.structurale.composite;
 
-import ro.ase.exercitii2.comportamentale.composite.entity.Autobuz;
-import ro.ase.exercitii2.comportamentale.composite.entity.Grup;
-import ro.ase.exercitii2.comportamentale.composite.entity.IFlota;
+import ro.ase.exercitii2.structurale.composite.entity.Autobuz;
+import ro.ase.exercitii2.structurale.composite.entity.Grup;
+import ro.ase.exercitii2.structurale.composite.entity.IFlota;
 
 public class Main {
     public static void main(String[] args) {

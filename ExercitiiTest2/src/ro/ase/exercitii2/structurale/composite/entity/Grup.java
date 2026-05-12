@@ -1,4 +1,4 @@
-package ro.ase.exercitii2.comportamentale.composite.entity;
+package ro.ase.exercitii2.structurale.composite.entity;
 
 import java.util.ArrayList;
 import java.util.List;

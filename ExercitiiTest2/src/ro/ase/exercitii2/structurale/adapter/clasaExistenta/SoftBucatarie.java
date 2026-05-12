@@ -1,4 +1,4 @@
-package ro.ase.exercitii2.comportamentale.adapter.clasaExistenta;
+package ro.ase.exercitii2.structurale.adapter.clasaExistenta;
 
 public class SoftBucatarie implements ISoftBucatarie {
     private int nrFactura;

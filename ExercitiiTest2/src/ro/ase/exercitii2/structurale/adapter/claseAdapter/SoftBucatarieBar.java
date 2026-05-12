@@ -1,6 +1,6 @@
-package ro.ase.exercitii2.comportamentale.adapter.claseAdapter;
+package ro.ase.exercitii2.structurale.adapter.claseAdapter;
 
-import ro.ase.exercitii2.comportamentale.adapter.clasaExistenta.ISoftBucatarie;
+import ro.ase.exercitii2.structurale.adapter.clasaExistenta.ISoftBucatarie;
 
 public class SoftBucatarieBar implements ISoftBucatarie {
     private SoftBar softBar;

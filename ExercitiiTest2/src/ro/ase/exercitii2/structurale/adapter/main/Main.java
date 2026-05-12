@@ -1,9 +1,9 @@
-package ro.ase.exercitii2.comportamentale.adapter.main;
+package ro.ase.exercitii2.structurale.adapter.main;
 
-import ro.ase.exercitii2.comportamentale.adapter.clasaExistenta.ISoftBucatarie;
-import ro.ase.exercitii2.comportamentale.adapter.clasaExistenta.SoftBucatarie;
-import ro.ase.exercitii2.comportamentale.adapter.claseAdapter.SoftBar;
-import ro.ase.exercitii2.comportamentale.adapter.claseAdapter.SoftBucatarieBar;
+import ro.ase.exercitii2.structurale.adapter.clasaExistenta.ISoftBucatarie;
+import ro.ase.exercitii2.structurale.adapter.clasaExistenta.SoftBucatarie;
+import ro.ase.exercitii2.structurale.adapter.claseAdapter.SoftBar;
+import ro.ase.exercitii2.structurale.adapter.claseAdapter.SoftBucatarieBar;
 
 public class Main {
     public static void main(String[] args) {
